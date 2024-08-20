@@ -9,7 +9,7 @@ import useStyles from './styles.js';
 const Post = ({ post }) => {
     const classes = useStyles();
   return (
-    <Card className={classes.car}>
+    <Card className={classes.card}>
       <CardMedia className={classes.media} image={post.selectedFile} title={post.title} />
       <div className={classes.overlay}>
         <Typography variant="h6">{post.creator}</Typography>
