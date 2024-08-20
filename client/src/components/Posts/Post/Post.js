@@ -36,9 +36,8 @@ const Post = ({ post }) => {
         </Button>
 
         <Button size="small" color="primary" onClick={()=>{}}>
-          <ThumbUpAltIcon fontSize="small" />
+          <DeleteIcon fontSize="small" />
           Delete
-          {post.likeCount}
         </Button>
 
       </CardActions>
