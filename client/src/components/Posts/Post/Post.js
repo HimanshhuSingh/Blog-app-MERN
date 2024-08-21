@@ -17,7 +17,7 @@ const Post = ({ post }) => {
       </div>
 
       <div className={classes.overlay2}>
-        <Button style={{collor:'white'}} size="small" onClick={()=>{}}>
+        <Button style={{color:'white'}} size="small" onClick={()=>{}}>
           <MoreHorizIcon fontSize="default" />
         </Button>
       </div>
